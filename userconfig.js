@@ -14,7 +14,7 @@ const default_config = {
   },
   tabs: [
     {
-      name: "l ife",
+      name: "life",
       background_url: "src/img/banners/cbg-7.gif",
       categories: [
         {
