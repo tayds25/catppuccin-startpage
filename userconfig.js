@@ -28,7 +28,7 @@ const default_config = {
             },
             {
               name: "spotify",
-              url: "hhttps://open.spotify.com",
+              url: "https://open.spotify.com",
               icon: "brand-spotify",
               icon_color: palette.green,
             },
