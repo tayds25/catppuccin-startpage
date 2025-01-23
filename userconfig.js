@@ -4,19 +4,16 @@ const palette = macchiato;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Philippines",
     scale: "C",
   },
   clock: {
     format: "h:i p",
     iconColor: palette.maroon,
   },
-  disabled: [],
-  fastlink: "https://app.raindrop.io",
-  openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "life",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
