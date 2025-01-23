@@ -14,24 +14,30 @@ const default_config = {
   },
   tabs: [
     {
-      name: "life",
-      background_url: "src/img/banners/cbg-9.gif",
+      name: "l ife",
+      background_url: "src/img/banners/cbg-7.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "chill",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "messenger",
+              url: "https://www.messenger.com/t/100001467351644",
+              icon: "message-2",
+              icon_color: palette.blue,
+            },
+            {
+              name: "spotify",
+              url: "hhttps://open.spotify.com",
+              icon: "brand-spotify",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
+              name: "yt music",
+              url: "https://youtube.com/playlist?list=PLz6JNgmybKavCsK9e-GEk8px2c6-lYW8E&si=s93UJXyf1BXsSQnj",
+              icon: "brand-youtube",
+              icon_color: palette.red,
+            }
           ],
         },
         {
