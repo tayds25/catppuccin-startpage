@@ -14,7 +14,7 @@ const default_config = {
   },
   tabs: [
     {
-      name: "life",
+      name: "l ife",
       background_url: "src/img/banners/cbg-7.gif",
       categories: [
         {
@@ -44,28 +44,34 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "blackboard",
+              url: "https://mapua.blackboard.com/ultra/",
+              icon: "clipboard-list",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "mymapua",
+              url: "https://my.mapua.edu.ph/Student/Default.aspx",
+              icon: "school",
+              icon_color: palette.mauve,
+            },
+            {
+              name: "gmail",
+              url: "https://mail.google.com/mail/u/1/#inbox",
+              icon: "brand-gmail",
               icon_color: palette.red,
             },
             {
               name: "drive",
-              url: "https://drive.google.com/drive/home",
+              url: "https://drive.google.com/drive/u/1/my-drive",
               icon: "brand-google-drive",
-              icon_color: palette.blue,
+              icon_color: palette.teal,
+            },
+            {
+              name: "github",
+              url: "https://github.com/tayds25",
+              icon: "brand-github",
+              icon_color: palette.lavender,
             },
           ],
         },
@@ -73,35 +79,23 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
+              name: "instagram",
+              url: "https://www.instagram.com",
+              icon: "badge-instagram",
+              icon_color: palette.rosewater,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
+              name: "pinterest",
+              url: "https://ph.pinterest.com",
+              icon: "brand-pinterest",
+              icon_color: palette.maroon,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
-            },
+              name: "cineby",
+              url: "https://www.cineby.app/",
+              icon: "movie",
+              icon_color: palette.sapphire,
+            }
           ],
         },
       ],
@@ -113,4 +107,4 @@ const CONFIG = new Config(default_config, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
+root.style.setProperty("--accent", palette.pink);
