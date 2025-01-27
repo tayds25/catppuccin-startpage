@@ -82,7 +82,7 @@ const default_config = {
               name: "instagram",
               url: "https://www.instagram.com",
               icon: "badge-instagram",
-              icon_color: palette.yellow,
+              icon_color: palette.green,
             },
             {
               name: "pinterest",
@@ -107,4 +107,4 @@ const CONFIG = new Config(default_config, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.maroon);
+root.style.setProperty("--accent", palette.red);
