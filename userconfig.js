@@ -81,8 +81,8 @@ const default_config = {
             {
               name: "instagram",
               url: "https://www.instagram.com",
-              icon: "badge-instagram",
-              icon_color: palette.green,
+              icon: "brand-instagram",
+              icon_color: palette.yellow,
             },
             {
               name: "pinterest",
